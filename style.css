@@ -1,0 +1,88 @@
+* {box-sizing: border-box;
+}
+body {
+	background-color: #669999;
+	background-image:
+		linear-gradient(to bottom, #999999, #669999);
+	background-size: auto;
+	background-repeat: no-repeat;
+	max-width: 960px;
+	margin: auto;
+}
+div {
+	padding: 10px;
+	overflow: auto;
+	font-family: Didot, Times New Roman, sans-serif;
+}
+header {
+	text-align:center;
+	background-color: #003333;
+	border-bottom: 10px;
+	border-bottom-color: #FF3333;
+	border-bottom-style: solid;
+}
+header a:link {
+	color: #669999;
+}
+header a:hover {
+	color: #FF3333;
+}
+summary {
+	color: #FF3333;
+}
+ul {
+	column-count: 2;
+}
+li {
+	color: #FF3333;
+}
+footer {
+	text-align: right;
+	color: #FF3333;
+	padding: 10px;
+	border-top: 5px solid #003333;
+	margin: 10px;
+}
+footer a:link {
+	color: #003333;
+}
+footer a:hover {
+	color: #999999;
+}
+.reg {
+	font-family: Monospace, Arial, Times-New-Roman, sans-serif;
+	border-top: 2px dashed #003333;
+	border-bottom: 2px dashed #003333;
+}
+.sumHead {
+	color: #003333;
+}
+.li {
+	color: black;
+}
+.button {
+	color: #FF3333;
+	background-color: #003333;
+	border-radius: 15px;
+	padding: 2px 10px;
+}
+.button:hover {
+	color: #003333;
+	background-color: #FF3333;
+	transition: 1s ease-in-out;
+}
+#name {
+	text-align: center;
+	font-size: 54px;
+	font-style: bold;
+	color: #FF3333;
+	
+}
+#headAdd {
+	font-size: 18px;
+	padding: 2px;
+	color: #999999;
+}
+#expDiv {
+	overflow: auto;
+}
