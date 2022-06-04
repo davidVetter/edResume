@@ -65,7 +65,6 @@ footer a:hover {
 	background-color: #003333;
 	border-radius: 15px;
 	padding: 2px 10px;
-	display: flex;
 }
 .button:hover {
 	color: #003333;
